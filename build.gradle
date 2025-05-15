@@ -29,11 +29,11 @@ dependencies {
 }
 
 application {
-    mainClass = 'com.example.MainVerticle'
+    mainClass = 'com.example.MikoVerticle'
 }
 
 tasks.withType(JavaExec).configureEach {
-    args = ['run', 'com.example.MainVerticle']
+    args = ['run', 'com.example.MikoVerticle']
 }
 
 test {
